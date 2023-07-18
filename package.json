@@ -1,0 +1,22 @@
+{
+  "name": "uno-prefix-variant",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "aibayanyu20 <aibayanyu@qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@mistjs/tsconfig": "^1.1.1",
+    "unbuild": "^1.2.1"
+  },
+  "dependencies": {
+    "@unocss/core": "^0.53.5"
+  }
+}

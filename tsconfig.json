@@ -1,0 +1,6 @@
+{
+    "extends":["@mistjs/tsconfig"],
+    "compilerOptions": {
+        "moduleResolution": "Node"
+    }
+}
