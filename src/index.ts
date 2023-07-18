@@ -4,7 +4,7 @@ export interface UnoPrefixVariantOptions {
   prefixCls?: string
 }
 
-export const unoPrefixVariant = (opt?: UnoPrefixVariantOptions): VariantFunction => {
+export const unoPrefixVariant = (opt?: UnoPrefixVariantOptions): VariantFunction<any> => {
   return (matcher) => {
     return {
       matcher,
