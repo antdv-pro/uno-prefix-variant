@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.mjs",
+  "type":"module",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "unbuild"
   },
